@@ -1,0 +1,44 @@
+.AppCV {
+  /* text-align: center; */
+}
+
+.AppCV-header {
+  background-color: #282c34;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+header > p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+p.description {
+  font-size: 18px;
+}
+
+.custom-navbar {
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.AppCV-link {
+  color: #61dafb;
+}
+
+@keyframes AppCV-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
